@@ -55,5 +55,5 @@ const startServer = (port) => {
   });
 };
 
-const DEFAULT_PORT = process.env.PORT || 5001;
+const DEFAULT_PORT = process.env.PORT || 5000;
 startServer(Number(DEFAULT_PORT));
